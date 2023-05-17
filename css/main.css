@@ -34,7 +34,7 @@ a {
 
 .title {
     font-weight: 800;
-    font-size: 85px;
+    font-size: 95px;
     color: var(--primary);
     margin: 22px 0 0 0;
 }
@@ -44,7 +44,7 @@ a {
 
 .desk {
     font-weight: 600;
-    font-size: var(--fs);
+    font-size:22px;
     color: #484855;
     margin: 16px 0;
     line-height: 1.7;
@@ -52,7 +52,7 @@ a {
 
 .btn {
     --color: #ffffff;
-    --bg: var(--primary);
+    --bg: var(--black);
     --hover-color: #fff;
     --hover-bg: #111114;
     --active-color: #fff;
@@ -61,11 +61,10 @@ a {
     background-color: var(--bg);
     font-weight: 600;
     font-size: 18px;
-    padding: 20px 30px;
     display: inline-block;
     border-radius: 30px;
     margin: 52px 16px 0;
-    padding: 35px 26px;
+    padding: 32px 85px;
     border: 3px solid white;
     transition: 0.25s;
 }
