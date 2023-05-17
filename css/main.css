@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --font-family: 'Open Sans', sans-serif;
+    --fs: 16px;
+    --fs-sm: 16px;
+    --fs-lg: 18px;
+
+    --primary: #6b68ec;
+    --black: #1c1c25;
+    --light: #fbfdff;
+}
+
+body {
+    font-family: var(--font-family);
+    line-height: 1.6;
+    font-size: 16px;
+    text-align: center;
+    background: #fbfdff;
+    margin: 98px 0;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+.container {
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.title {
+    font-weight: 800;
+    font-size: 85px;
+    color: var(--primary);
+    margin: 22px 0 0 0;
+}
+
+.image {
+}
+
+.desk {
+    font-weight: 600;
+    font-size: var(--fs);
+    color: #484855;
+    margin: 16px 0;
+    line-height: 1.7;
+}
+
+.btn {
+    --color: #ffffff;
+    --bg: var(--primary);
+    --hover-color: #fff;
+    --hover-bg: #111114;
+    --active-color: #fff;
+    --active-bg: #111114;
+    color: var(--color);
+    background-color: var(--bg);
+    font-weight: 600;
+    font-size: 18px;
+    padding: 20px 30px;
+    display: inline-block;
+    border-radius: 30px;
+    margin: 52px 16px 0;
+    padding: 35px 26px;
+    border: 3px solid white;
+    transition: 0.25s;
+}
+
+.btn:hover {
+    color: var(--hover-color);
+    background-color: var(--hover-bg);
+}
+
+.btn:active {
+    color: var(--active-color);
+    background-color: var(--active-bg);
+}
+
+.btn-red {
+    --color: #812e2e;
+    --bg: #e5afaf;
+}
+
+.btn-green {
+    --color: #333333;
+    --bg: #c2d8be;
+    --hover-color: #2b3e27;
+    --hover-bg: #9ab695;
+}
+
+.btn-ouline {
+    background-color: transparent;
+    color: var(--bg);
+    border: 3px solid;
+}
+
+.btn-round {
+    border-radius: 60px;
+}
+.btn-sm {
+    padding: 24px 39px;
+}
+.btn-lg {
+    padding: 42px 140px;
+    font-size: 20px;
+}
+
+/*
+@media (max-width: 555px) {
+    .title {
+        line-height: 1.1;
+        margin: 30px 0 42px;
+        color: red;
+    }
+}
+
+@media (max-width: 1140px) {
+    .title {
+        font-size: 80px;
+    }
+}
+*/
+
+/*
+@media (min-width: 460px) {
+    body {
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+}
+
+@media (min-width: 760px) {
+    body {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+}
+*/
